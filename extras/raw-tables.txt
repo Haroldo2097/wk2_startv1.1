@@ -39,23 +39,6 @@ table: central_park_weather
     column: tmax
     column: tmin
     column: filename
-table: daily_citi_bike_trip_counts_and_weather
-    column: date
-    column: trips
-    column: precipitation
-    column: snow_depth
-    column: snowfall
-    column: max_temperature
-    column: min_temperature
-    column: average_wind_speed
-    column: dow
-    column: year
-    column: month
-    column: holiday
-    column: stations_in_service
-    column: weekday
-    column: weekday_non_holiday
-    column: filename
 table: fhv_bases
     column: base_number
     column: base_name
