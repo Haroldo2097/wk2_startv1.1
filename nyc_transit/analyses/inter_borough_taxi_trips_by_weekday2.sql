@@ -1,8 +1,8 @@
 -- flag strategy
 
 with trips as
-(select
-    weekday(pickup_datetime) as weekday,
+(select 
+    weekday(pickup_datetime) as weekday, 
     pl.borough != dl.borough as is_inter_borough
 from {{ ref('mart__fact_all_taxi_trips') }} t
 join {{ ref('mart__dim_locations') }} pl on t.PUlocationID = pl.LocationID

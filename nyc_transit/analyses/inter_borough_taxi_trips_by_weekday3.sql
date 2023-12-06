@@ -1,16 +1,16 @@
 -- JOIN strategy, excluding NULL locations
 
 with all_trips as
-(select
-    weekday(pickup_datetime) as weekday,
+(select 
+    weekday(pickup_datetime) as weekday, 
     count(*) trips
     from {{ ref('mart__fact_all_taxi_trips') }} t
     where PUlocationID is not null and DOlocationID is not null
     group by all),
 
 inter_borough as
-(select
-    weekday(pickup_datetime) as weekday,
+(select 
+    weekday(pickup_datetime) as weekday, 
     count(*) as trips
 from {{ ref('mart__fact_all_taxi_trips') }} t
 join {{ ref('mart__dim_locations') }} pl on t.PUlocationID = pl.LocationID

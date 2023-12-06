@@ -88,12 +88,6 @@ models:
   - name: stg__central_park_weather
     description: ""
     columns:
-      - name: station
-        description: ""
-
-      - name: name
-        description: ""
-
       - name: date
         description: ""
         tests:
