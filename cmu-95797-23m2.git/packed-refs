@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+99a03fc58e015617d46a33d245e013853635d7f7 refs/heads/main
+6801104831b24f18b4302550e540c5a5fe390582 refs/tags/week-1-end
+0104c92a58a724a640637c573450c20d9956bc75 refs/tags/week-1-start
+8d1938f0dcdb9b79a7631a65eca91c704040c181 refs/tags/week-2-end
+6801104831b24f18b4302550e540c5a5fe390582 refs/tags/week-2-start
+5ac173a3c550db51f94c7e59a5b558b69cf190cd refs/tags/week-3-end
+0ae6028e8e87f1888e1945e4860a411add294454 refs/tags/week-3-start
+44b05f237618907f88702b2eac488038481a6611 refs/tags/week-4-end
+5ac173a3c550db51f94c7e59a5b558b69cf190cd refs/tags/week-4-start
+6a195cdbbdac78f9748e10702f4ecc50b88b5709 refs/tags/week-5-end
+44b05f237618907f88702b2eac488038481a6611 refs/tags/week-5-start
+99a03fc58e015617d46a33d245e013853635d7f7 refs/tags/week-6-end
+6a195cdbbdac78f9748e10702f4ecc50b88b5709 refs/tags/week-6-start
